@@ -42,7 +42,7 @@ group :doc do
 end
 
 group :production do
-  gem 'mysql2', '0.3.12b6'
+  gem 'pg', '0.15.1'
 end
 
 # Use ActiveModel has_secure_password
